@@ -1,0 +1,5 @@
+[05-Jul-2019 13:45:24 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/inui/public_html/license/system/libraries/Session/drivers/Session_files_driver.php on line 108
+[05-Jul-2019 13:45:24 UTC] PHP Warning:  session_set_save_handler(): Cannot change save handler when headers already sent in /home/inui/public_html/license/update/update.php on line 30
+[05-Jul-2019 13:45:24 UTC] PHP Warning:  session_name(): Cannot change session name when headers already sent in /home/inui/public_html/license/update/update.php on line 42
+[05-Jul-2019 13:45:24 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/inui/public_html/license/update/update.php on line 43
+[05-Jul-2019 13:45:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/inui/public_html/license/update/index.php:13) in /home/inui/public_html/license/update/update.php on line 120

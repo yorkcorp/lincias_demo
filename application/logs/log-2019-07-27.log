@@ -1,0 +1,4 @@
+ERROR - 2019-07-27 11:29:48 --> Query error: Table 'inui_licensetest.auth_users' doesn't exist - Invalid query: SELECT *
+FROM `auth_users`
+WHERE `au_username` = 'INUI'
+ERROR - 2019-07-27 11:29:48 --> Severity: error --> Exception: Call to a member function row_array() on boolean /home/inui/public_html/demo/license/application/models/User_model.php 5
